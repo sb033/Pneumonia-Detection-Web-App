@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify,redirect
 
 import tensorflow as tf
+from tensorflow.keras.applications.resnet50 import preprocess_input
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.models import model_from_json
 from tensorflow.keras.preprocessing.image import img_to_array
