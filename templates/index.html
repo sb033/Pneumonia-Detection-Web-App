@@ -24,8 +24,8 @@
 <section class="Predictions">
         <div>
             {% if predictions %}
-            
-            <button type="button" class="btn btn-danger">Positive: {{predictions.positive}}</button>
+            <button type="button" class="btn btn-success">NEGATIVE: {{predictions.negative}}</button>
+            <button type="button" class="btn btn-danger">POSITIVE: {{predictions.positive}}</button>
             {% endif %}
         </div>
 </section>
